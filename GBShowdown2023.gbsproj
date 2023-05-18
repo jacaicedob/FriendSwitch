@@ -4444,8 +4444,8 @@
                 15,
                 0,
                 0,
-                0,
-                0,
+                15,
+                15,
                 0,
                 0,
                 0,
@@ -5017,50 +5017,6 @@
                     "id": "918be53d-4bb9-4cc5-bbfa-e16c5eae8e54",
                     "x": 12,
                     "y": 4
-                },
-                {
-                    "name": "",
-                    "frame": 0,
-                    "animate": false,
-                    "spriteSheetId": "fa3cfbe2-a581-4d67-828f-819ebde38771",
-                    "direction": "down",
-                    "moveSpeed": 1,
-                    "animSpeed": 15,
-                    "paletteId": "",
-                    "isPinned": false,
-                    "persistent": false,
-                    "collisionGroup": "",
-                    "symbol": "actor_16",
-                    "script": [
-                        {
-                            "command": "EVENT_TEXT",
-                            "args": {
-                                "text": [
-                                    "What a lovely\nview."
-                                ],
-                                "avatarId": ""
-                            },
-                            "id": "6c344f67-7788-4b82-a2d5-d88935736b21"
-                        },
-                        {
-                            "command": "EVENT_TEXT",
-                            "args": {
-                                "text": [
-                                    "There's not time,\nlet's go !!"
-                                ],
-                                "avatarId": ""
-                            },
-                            "id": "00fab1a7-8ca3-487b-9da1-a7b448543587"
-                        }
-                    ],
-                    "startScript": [],
-                    "updateScript": [],
-                    "hit1Script": [],
-                    "hit2Script": [],
-                    "hit3Script": [],
-                    "id": "1d70a715-cb12-40c6-874d-595f3f3b29a0",
-                    "x": 17,
-                    "y": 4
                 }
             ],
             "triggers": [
@@ -5105,6 +5061,60 @@
                                 "avatarId": ""
                             },
                             "id": "754ba999-1873-4ce0-adb5-3c56eb54f135"
+                        }
+                    ],
+                    "leaveScript": []
+                },
+                {
+                    "name": "",
+                    "id": "1a0109b2-9347-4f12-ada4-64786781756d",
+                    "x": 17,
+                    "y": 5,
+                    "symbol": "trigger_7",
+                    "width": 2,
+                    "height": 1,
+                    "script": [
+                        {
+                            "command": "EVENT_TEXT",
+                            "args": {
+                                "text": [
+                                    "What a lovely\nview."
+                                ],
+                                "avatarId": ""
+                            },
+                            "id": "dcd786ae-9e81-4d5d-aea3-ea21dbc20511"
+                        },
+                        {
+                            "command": "EVENT_TEXT",
+                            "args": {
+                                "text": [
+                                    "There's not time,\nlet's go !!"
+                                ],
+                                "avatarId": ""
+                            },
+                            "id": "f99094cf-717c-40af-8e2d-c0b171a361a6"
+                        },
+                        {
+                            "command": "EVENT_ACTOR_SET_DIRECTION",
+                            "args": {
+                                "actorId": "$self$",
+                                "direction": {
+                                    "type": "direction",
+                                    "value": "down"
+                                }
+                            },
+                            "id": "e0b2f0d6-705f-4d25-a7eb-97ca9e580942"
+                        },
+                        {
+                            "command": "EVENT_ACTOR_MOVE_RELATIVE",
+                            "args": {
+                                "actorId": "$self$",
+                                "x": 0,
+                                "y": 1,
+                                "moveType": "horizontal",
+                                "useCollisions": false
+                            },
+                            "id": "2c7c7356-690a-4ccc-a7b8-59002cbb3385"
                         }
                     ],
                     "leaveScript": []
@@ -5502,28 +5512,36 @@
                     "height": 1,
                     "script": [
                         {
-                            "command": "EVENT_IF_ACTOR_DIRECTION",
+                            "command": "EVENT_TEXT",
+                            "args": {
+                                "text": [
+                                    "It's locked ..."
+                                ],
+                                "avatarId": ""
+                            },
+                            "id": "c1c355b0-d34f-4596-80c7-c546457603f0"
+                        },
+                        {
+                            "command": "EVENT_ACTOR_SET_DIRECTION",
                             "args": {
                                 "actorId": "$self$",
-                                "direction": "up",
-                                "__collapseElse": true
+                                "direction": {
+                                    "type": "direction",
+                                    "value": "down"
+                                }
                             },
-                            "children": {
-                                "true": [
-                                    {
-                                        "command": "EVENT_TEXT",
-                                        "args": {
-                                            "text": [
-                                                "It's locked ..."
-                                            ],
-                                            "avatarId": ""
-                                        },
-                                        "id": "c1c355b0-d34f-4596-80c7-c546457603f0"
-                                    }
-                                ],
-                                "false": []
+                            "id": "32a7138d-31a2-48fc-8611-945ef73b6959"
+                        },
+                        {
+                            "command": "EVENT_ACTOR_MOVE_RELATIVE",
+                            "args": {
+                                "actorId": "$self$",
+                                "x": 0,
+                                "y": 1,
+                                "moveType": "horizontal",
+                                "useCollisions": false
                             },
-                            "id": "0b3167ed-233d-4707-b159-fee8fcc75cbc"
+                            "id": "a7dd8955-7e5f-470b-9166-772d31195ac8"
                         }
                     ],
                     "leaveScript": []
@@ -10573,7 +10591,7 @@
         }
     ],
     "settings": {
-        "startSceneId": "a88e19d0-d564-4927-9eb7-27ff97f1f24b",
+        "startSceneId": "9b41dce5-d661-44e1-bf5c-09d1fcad3dfb",
         "startX": 9,
         "startY": 10,
         "startMoveSpeed": 1,
