@@ -3859,10 +3859,10 @@
                         {
                             "command": "EVENT_SWITCH_SCENE",
                             "args": {
-                                "sceneId": "039215e0-8424-4f4c-bece-44bffd4bade6",
+                                "sceneId": "a88e19d0-d564-4927-9eb7-27ff97f1f24b",
                                 "x": 0,
                                 "y": 7,
-                                "direction": "right",
+                                "direction": "down",
                                 "fadeSpeed": "2"
                             },
                             "id": "4551d9bb-7362-4200-8b7a-4fa5a418ca24"
@@ -4163,7 +4163,7 @@
                                 "command": "EVENT_TEXT",
                                 "args": {
                                     "text": [
-                                        "To user their\nspecial abilities\npress and hold A."
+                                        "To use their\nspecial abilities\npress and hold A."
                                     ],
                                     "avatarId": ""
                                 },
@@ -4371,9 +4371,9 @@
                 0,
                 0,
                 0,
-                0,
-                0,
-                0,
+                15,
+                15,
+                15,
                 0,
                 0,
                 0,
@@ -4661,7 +4661,7 @@
                             "args": {
                                 "sceneId": "039215e0-8424-4f4c-bece-44bffd4bade6",
                                 "x": 0,
-                                "y": 10,
+                                "y": 7,
                                 "direction": "right",
                                 "fadeSpeed": "2"
                             },
@@ -9992,7 +9992,7 @@
         "showCollisions": true,
         "showConnections": true,
         "worldScrollX": 727,
-        "worldScrollY": 99,
+        "worldScrollY": 348,
         "zoom": 184,
         "customColorsEnabled": false,
         "sgbEnabled": false,
@@ -10021,9 +10021,9 @@
         "defaultUIPaletteId": "default-ui",
         "playerPaletteId": "",
         "navigatorSplitSizes": [
-            545,
-            166,
-            166
+            480,
+            145,
+            145
         ],
         "showNavigator": true,
         "defaultFontId": "4bd653f0-e08d-424e-9e5b-c1f3aaa21e47",

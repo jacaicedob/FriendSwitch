@@ -3,10 +3,14 @@
         "height": 4300,
         "width": 2
     },
-    "activeFile": "Classroom.tmx",
+    "activeFile": "TutorialSpace.tmx",
     "expandedProjectPaths": [
         "."
     ],
+    "exportAsImage.drawTileGrid": false,
+    "exportAsImage.includeBackgroundColor": false,
+    "exportAsImage.useCurrentScale": false,
+    "exportAsImage.visibleLayersOnly": true,
     "fileStates": {
         "Assets.tsx": {
             "scaleInDock": 4,
@@ -16,55 +20,77 @@
             "scale": 4,
             "selectedLayer": 0,
             "viewCenter": {
-                "x": 88.25,
-                "y": 71
+                "x": 80.125,
+                "y": 72
             }
         },
         "Hallway1.tmx": {
             "scale": 3,
             "selectedLayer": 0,
             "viewCenter": {
-                "x": 63.33333333333334,
-                "y": 92.33333333333334
+                "x": 80.16666666666666,
+                "y": 72
             }
         },
         "Hallway2.tmx": {
             "scale": 3,
             "selectedLayer": 0,
             "viewCenter": {
-                "x": 93.33333333333334,
-                "y": 77.33333333333334
+                "x": 80.16666666666666,
+                "y": 72
             }
         },
         "HallwayTest.tmx": {
             "scale": 2,
             "selectedLayer": 0,
             "viewCenter": {
-                "x": 191,
-                "y": 57.5
+                "x": 160.25,
+                "y": 69
+            }
+        },
+        "TutorialSpace.tmx": {
+            "scale": 2.909375,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 82.66380236305048,
+                "y": 79.3984962406015
             }
         }
     },
     "last.imagePath": "/home/jaime/code/GBStudio/GameBoyShowdown2023/assets/backgrounds",
+    "map.fixedSize": true,
     "map.height": 18,
     "map.lastUsedFormat": "tmx",
+    "map.orientation": 1,
     "map.tileHeight": 8,
     "map.tileWidth": 8,
     "map.width": 20,
     "openFiles": [
         "HallwayTest.tmx",
         "Assets.tsx",
-        "Classroom.tmx"
+        "Classroom.tmx",
+        "Hallway1.tmx",
+        "Hallway2.tmx",
+        "TutorialSpace.tmx"
     ],
     "project": "Backgrounds.tiled-project",
     "recentFiles": [
         "HallwayTest.tmx",
         "Assets.tsx",
-        "Classroom.tmx"
+        "Classroom.tmx",
+        "Hallway1.tmx",
+        "Hallway2.tmx",
+        "TutorialSpace.tmx"
     ],
+    "tileset.embedInMap": false,
     "tileset.lastUsedFormat": "tsx",
+    "tileset.margin": 0,
+    "tileset.spacing": 0,
     "tileset.tileSize": {
         "height": 8,
         "width": 8
-    }
+    },
+    "tileset.transparentColor": "#ff00ff",
+    "tileset.type": 0,
+    "tileset.useTransparentColor": false
 }
