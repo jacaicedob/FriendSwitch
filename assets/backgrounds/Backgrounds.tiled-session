@@ -3,24 +3,45 @@
         "height": 4300,
         "width": 2
     },
-    "activeFile": "",
+    "activeFile": "Classroom.tmx",
     "expandedProjectPaths": [
+        "."
     ],
     "fileStates": {
+        "Assets.tsx": {
+            "scaleInDock": 4,
+            "scaleInEditor": 1
+        },
         "Classroom.tmx": {
             "scale": 4,
             "selectedLayer": 0,
             "viewCenter": {
-                "x": 66.25,
-                "y": 71.5
+                "x": 88.25,
+                "y": 71
+            }
+        },
+        "Hallway1.tmx": {
+            "scale": 3,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 63.33333333333334,
+                "y": 92.33333333333334
+            }
+        },
+        "Hallway2.tmx": {
+            "scale": 3,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 93.33333333333334,
+                "y": 77.33333333333334
             }
         },
         "HallwayTest.tmx": {
             "scale": 2,
             "selectedLayer": 0,
             "viewCenter": {
-                "x": 192.5,
-                "y": 58.5
+                "x": 191,
+                "y": 57.5
             }
         }
     },
@@ -31,9 +52,15 @@
     "map.tileWidth": 8,
     "map.width": 20,
     "openFiles": [
+        "HallwayTest.tmx",
+        "Assets.tsx",
+        "Classroom.tmx"
     ],
     "project": "Backgrounds.tiled-project",
     "recentFiles": [
+        "HallwayTest.tmx",
+        "Assets.tsx",
+        "Classroom.tmx"
     ],
     "tileset.lastUsedFormat": "tsx",
     "tileset.tileSize": {
