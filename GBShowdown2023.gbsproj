@@ -412,9 +412,30 @@
                     "paletteId": "",
                     "isPinned": false,
                     "persistent": false,
-                    "collisionGroup": "",
+                    "collisionGroup": "1",
                     "symbol": "actor_16",
-                    "script": [],
+                    "script": [
+                        {
+                            "command": "EVENT_CALL_CUSTOM_EVENT",
+                            "args": {
+                                "customEventId": "1fa28ce2-109e-4f98-8d26-b34c91f59d50",
+                                "$actor[0]$": "49b0f0d0-e81e-424b-aad3-4902271daa73",
+                                "$actor[1]$": "a4c36133-6701-4cf5-bb1b-54ea89473833"
+                            },
+                            "id": "64a40cf8-b2b1-45a0-980d-85baa235d565"
+                        },
+                        {
+                            "command": "EVENT_SWITCH_SCENE",
+                            "args": {
+                                "sceneId": "eada2077-8ac7-46be-a347-97ba592debaf",
+                                "x": 0,
+                                "y": 0,
+                                "direction": "",
+                                "fadeSpeed": "2"
+                            },
+                            "id": "10fbb218-7922-496a-b671-7c36fbcfe39c"
+                        }
+                    ],
                     "startScript": [],
                     "updateScript": [
                         {
@@ -476,9 +497,30 @@
                     "paletteId": "",
                     "isPinned": false,
                     "persistent": false,
-                    "collisionGroup": "",
+                    "collisionGroup": "1",
                     "symbol": "actor_17",
-                    "script": [],
+                    "script": [
+                        {
+                            "command": "EVENT_CALL_CUSTOM_EVENT",
+                            "args": {
+                                "customEventId": "1fa28ce2-109e-4f98-8d26-b34c91f59d50",
+                                "$actor[1]$": "$self$",
+                                "$actor[0]$": "49b0f0d0-e81e-424b-aad3-4902271daa73"
+                            },
+                            "id": "519a0886-b1db-4e1f-8df3-ccf9137dc2b2"
+                        },
+                        {
+                            "command": "EVENT_SWITCH_SCENE",
+                            "args": {
+                                "sceneId": "eada2077-8ac7-46be-a347-97ba592debaf",
+                                "x": 0,
+                                "y": 0,
+                                "direction": "",
+                                "fadeSpeed": "2"
+                            },
+                            "id": "b649a793-5377-48d5-802f-bc9bcd780ed8"
+                        }
+                    ],
                     "startScript": [],
                     "updateScript": [
                         {
@@ -7765,9 +7807,9 @@
             "canvasWidth": 48,
             "canvasHeight": 16,
             "boundsX": -16,
-            "boundsY": 0,
+            "boundsY": 1,
             "boundsWidth": 48,
-            "boundsHeight": 16,
+            "boundsHeight": 14,
             "animSpeed": 15
         },
         {
@@ -8102,9 +8144,9 @@
             "numTiles": 8,
             "canvasWidth": 16,
             "canvasHeight": 48,
-            "boundsX": 0,
+            "boundsX": 1,
             "boundsY": 0,
-            "boundsWidth": 16,
+            "boundsWidth": 14,
             "boundsHeight": 48,
             "animSpeed": 15
         },
@@ -9744,10 +9786,10 @@
             "numTiles": 4,
             "canvasWidth": 16,
             "canvasHeight": 16,
-            "boundsX": 0,
+            "boundsX": 3,
             "boundsY": 0,
-            "boundsWidth": 16,
-            "boundsHeight": 16,
+            "boundsWidth": 10,
+            "boundsHeight": 15,
             "animSpeed": 15
         },
         {
@@ -10100,10 +10142,10 @@
             "numTiles": 12,
             "canvasWidth": 16,
             "canvasHeight": 16,
-            "boundsX": 0,
+            "boundsX": 2,
             "boundsY": 0,
-            "boundsWidth": 16,
-            "boundsHeight": 16,
+            "boundsWidth": 11,
+            "boundsHeight": 8,
             "animSpeed": 15
         },
         {
@@ -12510,6 +12552,75 @@
                         "false": []
                     },
                     "id": "f8b1a270-33fa-48cd-a5e5-0a861c37144f"
+                }
+            ]
+        },
+		{
+            "id": "1fa28ce2-109e-4f98-8d26-b34c91f59d50",
+            "name": "HallMonitorOrConeHitPlayer",
+            "description": "Script for when a hall monitor or a vision cone touches the player. Attach to the \"On Hit > Player\" script for a hall monitor or vision cone. You should call \"Change Scene\" after this script is done to reset the scene.",
+            "variables": {},
+            "actors": {
+                "0": {
+                    "id": "0",
+                    "name": "HallMonitor"
+                },
+                "1": {
+                    "id": "1",
+                    "name": "VisionCone"
+                }
+            },
+            "symbol": "script_4",
+            "script": [
+                {
+                    "command": "EVENT_SET_INPUT_SCRIPT",
+                    "args": {
+                        "input": [
+                            "b",
+                            "left",
+                            "up",
+                            "down",
+                            "right",
+                            "select",
+                            "start",
+                            "a"
+                        ],
+                        "override": true,
+                        "__scriptTabs": "press"
+                    },
+                    "children": {
+                        "true": []
+                    },
+                    "id": "33d7ca29-98ab-4274-9f52-f310e32feb44"
+                },
+                {
+                    "command": "EVENT_ACTOR_STOP_UPDATE",
+                    "args": {
+                        "actorId": "1"
+                    },
+                    "id": "739731fd-b74c-4eba-8777-1f8dcf90fc48"
+                },
+                {
+                    "command": "EVENT_ACTOR_STOP_UPDATE",
+                    "args": {
+                        "actorId": "0"
+                    },
+                    "id": "0481fc19-744c-4537-a4c2-87209257af49"
+                },
+                {
+                    "command": "EVENT_ACTOR_EMOTE",
+                    "args": {
+                        "actorId": "0",
+                        "emoteId": "56423c9c-dca0-4f5b-ad92-28e9660d50f1"
+                    },
+                    "id": "c8329ff2-6357-4985-9702-7ed379f6f2d9"
+                },
+                {
+                    "command": "EVENT_COMMENT",
+                    "args": {
+                        "text": "Add \"Change Scene\" event to restart the scene after this script finishes. I can't add it here unfortunately because the scene can't be a script parameter."
+                    },
+                    "id": "ad30c49b-5971-49e7-b67c-24f89653bc20"
                 }
             ]
         }
