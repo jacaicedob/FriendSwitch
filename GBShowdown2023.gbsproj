@@ -11502,8 +11502,8 @@
                     "id": "85cd0200-5d9d-4513-b328-51d8a5d2b9a4"
                 }
             ]
-        }
-    ],
+        },
+		{
             "id": "1fa28ce2-109e-4f98-8d26-b34c91f59d50",
             "name": "HallMonitorOrConeHitPlayer",
             "description": "Script for when a hall monitor or a vision cone touches the player. Attach to the \"On Hit > Player\" script for a hall monitor or vision cone. You should call \"Change Scene\" after this script is done to reset the scene.",
