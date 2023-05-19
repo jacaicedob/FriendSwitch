@@ -1163,12 +1163,26 @@
                         "customEventId": "78c081a2-522b-4cd5-8700-6a0b39b912de"
                     },
                     "id": "89ca625d-c993-4bdc-8961-b3b8c7742e03"
+                },
+                {
+                    "command": "EVENT_CAMERA_LOCK",
+                    "args": {
+                        "speed": 0,
+                        "axis": [
+                            "x",
+                            "y"
+                        ],
+                        "__collapse": false,
+                        "__comment": true
+                    },
+                    "id": "28edba19-a5bd-4f25-88ee-83ef0d24165b"
                 }
             ],
             "playerHit1Script": [],
             "playerHit2Script": [],
             "playerHit3Script": [],
-            "playerSpriteSheetId": "057f5954-0160-4c1e-9772-6f1f25a0adf8"
+            "playerSpriteSheetId": "057f5954-0160-4c1e-9772-6f1f25a0adf8",
+            "autoFadeEventCollapse": true
         },
         {
             "name": "Ethan Test",
@@ -3050,6 +3064,20 @@
                         "variable": "100"
                     },
                     "id": "bfde51ee-9f36-4ca1-a672-57889b29c01a"
+                },
+                {
+                    "command": "EVENT_CALL_CUSTOM_EVENT",
+                    "args": {
+                        "customEventId": "0fbbbd1c-0217-466f-b81d-dacc9e686c9a"
+                    },
+                    "id": "ae0be805-37ec-4ad8-870d-1ed7325d1340"
+                },
+                {
+                    "command": "EVENT_CALL_CUSTOM_EVENT",
+                    "args": {
+                        "customEventId": "78c081a2-522b-4cd5-8700-6a0b39b912de"
+                    },
+                    "id": "04d118e4-9560-462d-8693-1a43f1003635"
                 }
             ],
             "playerHit1Script": [],
@@ -4024,7 +4052,7 @@
                     "command": "EVENT_GROUP",
                     "args": {
                         "__comment": false,
-                        "__collapse": false
+                        "__collapse": true
                     },
                     "children": {
                         "true": [
@@ -4283,6 +4311,13 @@
                         ]
                     },
                     "id": "5a9376bd-eb5c-4c10-845c-0f6cf85a197e"
+                },
+                {
+                    "command": "EVENT_CALL_CUSTOM_EVENT",
+                    "args": {
+                        "customEventId": "0fbbbd1c-0217-466f-b81d-dacc9e686c9a"
+                    },
+                    "id": "59ba5863-3c1c-4fbf-83a3-3a3cd3912884"
                 },
                 {
                     "command": "EVENT_CALL_CUSTOM_EVENT",
@@ -5078,7 +5113,7 @@
                             "command": "EVENT_TEXT",
                             "args": {
                                 "text": [
-                                    "What a lovely\nview."
+                                    "This window\nlooks into the\ndetention room!"
                                 ],
                                 "avatarId": ""
                             },
@@ -5088,11 +5123,11 @@
                             "command": "EVENT_TEXT",
                             "args": {
                                 "text": [
-                                    "There's not time,\nlet's go !!"
+                                    "What a waste..."
                                 ],
                                 "avatarId": ""
                             },
-                            "id": "f99094cf-717c-40af-8e2d-c0b171a361a6"
+                            "id": "9034765d-4ac5-4838-b801-0ec312e15a1a"
                         },
                         {
                             "command": "EVENT_ACTOR_SET_DIRECTION",
@@ -5120,7 +5155,22 @@
                     "leaveScript": []
                 }
             ],
-            "script": [],
+            "script": [
+                {
+                    "command": "EVENT_CALL_CUSTOM_EVENT",
+                    "args": {
+                        "customEventId": "0fbbbd1c-0217-466f-b81d-dacc9e686c9a"
+                    },
+                    "id": "914b9006-bc8e-4b27-a50c-90a4cb27dd89"
+                },
+                {
+                    "command": "EVENT_CALL_CUSTOM_EVENT",
+                    "args": {
+                        "customEventId": "78c081a2-522b-4cd5-8700-6a0b39b912de"
+                    },
+                    "id": "f68b09ea-0c27-4489-990a-e256de3cff54"
+                }
+            ],
             "playerHit1Script": [],
             "playerHit2Script": [],
             "playerHit3Script": []
@@ -5570,7 +5620,22 @@
                     "leaveScript": []
                 }
             ],
-            "script": [],
+            "script": [
+                {
+                    "command": "EVENT_CALL_CUSTOM_EVENT",
+                    "args": {
+                        "customEventId": "0fbbbd1c-0217-466f-b81d-dacc9e686c9a"
+                    },
+                    "id": "b24b5413-af1b-42b1-8873-e5b845ddf4a6"
+                },
+                {
+                    "command": "EVENT_CALL_CUSTOM_EVENT",
+                    "args": {
+                        "customEventId": "78c081a2-522b-4cd5-8700-6a0b39b912de"
+                    },
+                    "id": "404d71e9-68f5-4b71-b0d7-18b2a303f160"
+                }
+            ],
             "playerHit1Script": [],
             "playerHit2Script": [],
             "playerHit3Script": []
@@ -10273,34 +10338,64 @@
                                         {
                                             "command": "EVENT_PLAYER_SET_SPRITE",
                                             "args": {
-                                                "spriteSheetId": "98914891-135b-44bb-b23e-b3863fa61e71",
+                                                "spriteSheetId": "92cbfd52-d436-49cd-8153-7959b8fd4525",
                                                 "persist": false
                                             },
                                             "id": "a9bac2a3-d54b-4e7a-9015-70b6c8001697"
                                         },
                                         {
-                                            "command": "EVENT_ACTOR_EMOTE",
+                                            "command": "EVENT_ACTOR_STOP_UPDATE",
+                                            "args": {
+                                                "actorId": "$self$"
+                                            },
+                                            "id": "c142653d-a6b8-4720-8f7e-b047ee0bf866"
+                                        },
+                                        {
+                                            "command": "EVENT_ACTOR_SET_MOVEMENT_SPEED",
                                             "args": {
                                                 "actorId": "$self$",
-                                                "emoteId": "8940d6f1-5df7-462b-be71-b0ba1a65d9ff"
+                                                "speed": 1
                                             },
-                                            "id": "c9841645-d1d8-4e55-9fa5-a4d1981f051d"
-                                        }
-                                    ],
-                                    "true1": [
-                                        {
-                                            "command": "EVENT_PLAYER_SET_SPRITE",
-                                            "args": {
-                                                "spriteSheetId": "92cbfd52-d436-49cd-8153-7959b8fd4525",
-                                                "persist": false
-                                            },
-                                            "id": "58369550-2872-4ec5-a0f5-85f55e9f558c"
+                                            "id": "08d08634-9c48-4a14-ba45-fbbbf744929a"
                                         },
                                         {
                                             "command": "EVENT_ACTOR_EMOTE",
                                             "args": {
                                                 "actorId": "$self$",
                                                 "emoteId": "cefbfa7a-3a43-43ab-865d-8089fd6261aa"
+                                            },
+                                            "id": "c9841645-d1d8-4e55-9fa5-a4d1981f051d"
+                                        },
+                                        {
+                                            "command": "EVENT_ACTOR_START_UPDATE",
+                                            "args": {
+                                                "actorId": "$self$"
+                                            },
+                                            "id": "6d8b009c-ac93-449c-925d-99bf32a2edcb"
+                                        }
+                                    ],
+                                    "true1": [
+                                        {
+                                            "command": "EVENT_PLAYER_SET_SPRITE",
+                                            "args": {
+                                                "spriteSheetId": "ccc68f14-6a8d-45c9-8e99-679d51129434",
+                                                "persist": false
+                                            },
+                                            "id": "58369550-2872-4ec5-a0f5-85f55e9f558c"
+                                        },
+                                        {
+                                            "command": "EVENT_ACTOR_SET_MOVEMENT_SPEED",
+                                            "args": {
+                                                "actorId": "$self$",
+                                                "speed": 0.5
+                                            },
+                                            "id": "cb551f70-5763-4f91-b979-9adf25fbd00e"
+                                        },
+                                        {
+                                            "command": "EVENT_ACTOR_EMOTE",
+                                            "args": {
+                                                "actorId": "$self$",
+                                                "emoteId": "a867bf5b-7f5b-4045-afe2-8169da962289"
                                             },
                                             "id": "5319ae1b-bb1a-4e82-8540-358fffcc5e8e"
                                         }
@@ -10309,16 +10404,24 @@
                                         {
                                             "command": "EVENT_PLAYER_SET_SPRITE",
                                             "args": {
-                                                "spriteSheetId": "ccc68f14-6a8d-45c9-8e99-679d51129434",
+                                                "spriteSheetId": "98914891-135b-44bb-b23e-b3863fa61e71",
                                                 "persist": false
                                             },
                                             "id": "c69bfb89-3516-4e9a-972f-4054eff91108"
                                         },
                                         {
+                                            "command": "EVENT_ACTOR_SET_MOVEMENT_SPEED",
+                                            "args": {
+                                                "actorId": "$self$",
+                                                "speed": 2
+                                            },
+                                            "id": "6521007c-3010-4f64-ae5f-1835098acfff"
+                                        },
+                                        {
                                             "command": "EVENT_ACTOR_EMOTE",
                                             "args": {
                                                 "actorId": "$self$",
-                                                "emoteId": "a867bf5b-7f5b-4045-afe2-8169da962289"
+                                                "emoteId": "8940d6f1-5df7-462b-be71-b0ba1a65d9ff"
                                             },
                                             "id": "f0bcb8f3-aebb-4978-bee9-f85f64f4b339"
                                         }
@@ -10333,14 +10436,6 @@
                                             "id": "1efb790e-3166-4579-8d40-d9f71fb0e10d"
                                         },
                                         {
-                                            "command": "EVENT_ACTOR_EMOTE",
-                                            "args": {
-                                                "actorId": "$self$",
-                                                "emoteId": "0bb92f4a-44fa-4c12-b7f8-d9d4045187a3"
-                                            },
-                                            "id": "16983499-2700-4dc6-9a79-9b8041aadf54"
-                                        },
-                                        {
                                             "command": "EVENT_SET_VALUE",
                                             "args": {
                                                 "variable": "0",
@@ -10350,6 +10445,22 @@
                                                 }
                                             },
                                             "id": "94f938ce-4492-4ad4-a202-445b3627032f"
+                                        },
+                                        {
+                                            "command": "EVENT_ACTOR_SET_MOVEMENT_SPEED",
+                                            "args": {
+                                                "actorId": "$self$",
+                                                "speed": 0.5
+                                            },
+                                            "id": "59d27a25-4e06-4aff-a0bb-454db117ace8"
+                                        },
+                                        {
+                                            "command": "EVENT_ACTOR_EMOTE",
+                                            "args": {
+                                                "actorId": "$self$",
+                                                "emoteId": "0bb92f4a-44fa-4c12-b7f8-d9d4045187a3"
+                                            },
+                                            "id": "16983499-2700-4dc6-9a79-9b8041aadf54"
                                         }
                                     ],
                                     "true4": [],
@@ -10445,6 +10556,35 @@
                         ]
                     },
                     "id": "23a42769-0d66-4d19-8c2f-af124c558fe9"
+                }
+            ]
+        },
+        {
+            "id": "0fbbbd1c-0217-466f-b81d-dacc9e686c9a",
+            "name": "InitPlayers",
+            "description": "Initialize player variables for scene",
+            "variables": {},
+            "actors": {},
+            "symbol": "script_3",
+            "script": [
+                {
+                    "command": "EVENT_SET_VALUE",
+                    "args": {
+                        "variable": "0",
+                        "value": {
+                            "type": "number",
+                            "value": 0
+                        }
+                    },
+                    "id": "1ba25eca-a718-4dcb-b219-571ab99626dc"
+                },
+                {
+                    "command": "EVENT_ACTOR_SET_MOVEMENT_SPEED",
+                    "args": {
+                        "actorId": "$self$",
+                        "speed": 1
+                    },
+                    "id": "85cd0200-5d9d-4513-b328-51d8a5d2b9a4"
                 }
             ]
         }
@@ -10592,15 +10732,15 @@
     ],
     "settings": {
         "startSceneId": "9b41dce5-d661-44e1-bf5c-09d1fcad3dfb",
-        "startX": 9,
-        "startY": 10,
+        "startX": 11,
+        "startY": 7,
         "startMoveSpeed": 1,
         "startAnimSpeed": 15,
         "startDirection": "up",
         "showCollisions": true,
         "showConnections": true,
-        "worldScrollX": 906,
-        "worldScrollY": 348,
+        "worldScrollX": 1009,
+        "worldScrollY": 385,
         "zoom": 184,
         "customColorsEnabled": false,
         "sgbEnabled": false,
@@ -10649,7 +10789,8 @@
         "batterylessEnabled": false,
         "favoriteEvents": [
             "EVENT_TEXT",
-            "EVENT_SWITCH_SCENE"
+            "EVENT_SWITCH_SCENE",
+            "EVENT_CALL_CUSTOM_EVENT"
         ],
         "defaultFadeStyle": "white",
         "playerSpriteSheetId": "581d34d0-9591-4e6e-a609-1d94f203b0cd"
