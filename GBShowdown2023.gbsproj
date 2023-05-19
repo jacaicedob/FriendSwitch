@@ -12046,7 +12046,7 @@
                         ],
                         "override": true,
                         "__scriptTabs": "press",
-                        "__collapse": false
+                        "__collapse": true
                     },
                     "children": {
                         "true": [
@@ -12279,9 +12279,9 @@
                                                 "y": 0,
                                                 "otherActorId": "$self$",
                                                 "direction": "up",
-                                                "angle": 0,
+                                                "angle": 45,
                                                 "angleVariable": "0",
-                                                "directionType": "direction",
+                                                "directionType": "actor",
                                                 "initialOffset": 0,
                                                 "speed": 2,
                                                 "animSpeed": 15,
@@ -12555,7 +12555,7 @@
                 }
             ]
         },
-		{
+        {
             "id": "1fa28ce2-109e-4f98-8d26-b34c91f59d50",
             "name": "HallMonitorOrConeHitPlayer",
             "description": "Script for when a hall monitor or a vision cone touches the player. Attach to the \"On Hit > Player\" script for a hall monitor or vision cone. You should call \"Change Scene\" after this script is done to reset the scene.",
@@ -12570,7 +12570,7 @@
                     "name": "VisionCone"
                 }
             },
-            "symbol": "script_4",
+            "symbol": "script_0",
             "script": [
                 {
                     "command": "EVENT_SET_INPUT_SCRIPT",
@@ -12767,17 +12767,17 @@
         }
     ],
     "settings": {
-        "startSceneId": "f108b88a-d78d-4e56-ab03-48370d0ac319",
-        "startX": 3,
-        "startY": 3,
+        "startSceneId": "a88e19d0-d564-4927-9eb7-27ff97f1f24b",
+        "startX": 0,
+        "startY": 9,
         "startMoveSpeed": 1,
         "startAnimSpeed": 15,
         "startDirection": "down",
         "showCollisions": true,
         "showConnections": true,
-        "worldScrollX": 536,
-        "worldScrollY": 388,
-        "zoom": 199.14073386508971,
+        "worldScrollX": 760,
+        "worldScrollY": 452,
+        "zoom": 188.9164283843711,
         "customColorsEnabled": true,
         "sgbEnabled": false,
         "customHead": "",
@@ -12805,8 +12805,8 @@
         "defaultUIPaletteId": "default-ui",
         "playerPaletteId": "",
         "navigatorSplitSizes": [
-            480,
-            145,
+            398,
+            227,
             145
         ],
         "showNavigator": true,
