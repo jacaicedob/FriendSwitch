@@ -8721,6 +8721,17 @@
                         }
                     ],
                     "leaveScript": []
+                },
+                {
+                    "name": "",
+                    "id": "8c47b1bb-5508-4b84-8189-6415ea2a0c53",
+                    "x": 44,
+                    "y": 35,
+                    "symbol": "trigger_8",
+                    "width": 11,
+                    "height": 1,
+                    "script": [],
+                    "leaveScript": []
                 }
             ],
             "script": [
@@ -9912,7 +9923,7 @@
             "numFrames": 2,
             "type": "animated",
             "filename": "cone_left_right_small.png",
-            "checksum": "144377e0ea41261316b61f82fc602086fe7e4aa9",
+            "checksum": "b678c4cd4ad50b3c8df03647a063d364ab630963",
             "width": 32,
             "height": 16,
             "states": [
