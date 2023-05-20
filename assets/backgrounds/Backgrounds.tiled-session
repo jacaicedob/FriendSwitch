@@ -56,6 +56,14 @@
                 "y": 152
             }
         },
+        "LevelStealthy.tmx": {
+            "scale": 4.286875,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 80.12829858579968,
+                "y": 77.21242163580698
+            }
+        },
         "TutorialSpace.tmx": {
             "scale": 2.909375,
             "selectedLayer": 0,
