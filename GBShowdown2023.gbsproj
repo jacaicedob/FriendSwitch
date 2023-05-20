@@ -22155,10 +22155,10 @@
                 {
                     "name": "",
                     "id": "aa1a332e-99aa-4dae-ad70-060096b34bf3",
-                    "x": 9,
+                    "x": 11,
                     "y": 59,
                     "symbol": "trigger_10",
-                    "width": 8,
+                    "width": 4,
                     "height": 1,
                     "script": [
                         {
@@ -30865,7 +30865,7 @@
         "showCollisions": true,
         "showConnections": true,
         "worldScrollX": 1742,
-        "worldScrollY": 563,
+        "worldScrollY": 530,
         "zoom": 143.699951171875,
         "customColorsEnabled": true,
         "sgbEnabled": false,
