@@ -28,16 +28,16 @@
             "scale": 3,
             "selectedLayer": 0,
             "viewCenter": {
-                "x": 80.16666666666666,
-                "y": 72.16666666666666
+                "x": 80.33333333333333,
+                "y": 71.99999999999999
             }
         },
         "Hallway2.tmx": {
             "scale": 3,
             "selectedLayer": 0,
             "viewCenter": {
-                "x": 80.16666666666666,
-                "y": 72.16666666666666
+                "x": 80.33333333333333,
+                "y": 71.99999999999999
             }
         },
         "HallwayTest.tmx": {
@@ -48,23 +48,31 @@
                 "y": 69.25
             }
         },
+        "Level1.tmx": {
+            "scale": 2,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 329.5,
+                "y": 136.5
+            }
+        },
         "TutorialSpace.tmx": {
             "scale": 2.909375,
             "selectedLayer": 0,
             "viewCenter": {
-                "x": 82.66380236305048,
-                "y": 79.3984962406015
+                "x": 79.7422126745435,
+                "y": 76.64876476906551
             }
         }
     },
     "last.imagePath": "/home/jaime/code/GBStudio/GameBoyShowdown2023/assets/backgrounds",
     "map.fixedSize": true,
-    "map.height": 18,
+    "map.height": 36,
     "map.lastUsedFormat": "tmx",
     "map.orientation": 1,
     "map.tileHeight": 8,
     "map.tileWidth": 8,
-    "map.width": 20,
+    "map.width": 60,
     "openFiles": [
         "HallwayTest.tmx",
         "Assets.tsx",
