@@ -6,7 +6,7 @@
     "scenes": [
         {
             "name": "TitleScreen",
-            "backgroundId": "688eeb91-de9c-4978-8d53-c2f5ca82d796",
+            "backgroundId": "132f9f99-918e-457d-9232-8cc225050ff5",
             "width": 20,
             "height": 18,
             "type": "LOGO",
@@ -19008,6 +19008,110 @@
             "playerHit1Script": [],
             "playerHit2Script": [],
             "playerHit3Script": []
+        },
+        {
+            "name": "Credits",
+            "backgroundId": "1e5f9d6a-bdbc-43e6-8c34-22f5bb5dea05",
+            "width": 20,
+            "height": 18,
+            "type": "TOPDOWN",
+            "paletteIds": [],
+            "spritePaletteIds": [],
+            "collisions": [],
+            "autoFadeSpeed": 1,
+            "id": "b0133e49-9c91-4557-982c-f7bdc5947ba6",
+            "symbol": "scene_14",
+            "x": 1564.2734236543388,
+            "y": 668.7027462467955,
+            "actors": [],
+            "triggers": [],
+            "script": [
+                {
+                    "command": "EVENT_GROUP",
+                    "args": {},
+                    "children": {
+                        "true": [
+                            {
+                                "command": "EVENT_MUSIC_PLAY",
+                                "args": {
+                                    "musicId": "e2a11f5d-0468-4b34-9c2b-76dfb307a58a"
+                                },
+                                "id": "b9f48517-84dc-4815-8680-ec74d6c5157c"
+                            },
+                            {
+                                "command": "EVENT_ACTOR_HIDE",
+                                "args": {
+                                    "actorId": "$self$"
+                                },
+                                "id": "cd2caac9-b317-487b-8833-518983d5a50b"
+                            },
+                            {
+                                "command": "EVENT_TEXT_SET_ANIMATION_SPEED",
+                                "args": {
+                                    "speedIn": 1,
+                                    "speedOut": 0,
+                                    "speed": 1,
+                                    "allowFastForward": true
+                                },
+                                "id": "79d70137-ddb3-40e8-8e20-afab15420d81"
+                            }
+                        ]
+                    },
+                    "id": "1e85b665-e921-42bb-8145-1ecaea328042"
+                },
+                {
+                    "command": "EVENT_TEXT",
+                    "args": {
+                        "text": [
+                            "Title Screen:\nAlex L.\n\nCharacter Art:\nParabellum Games"
+                        ],
+                        "avatarId": ""
+                    },
+                    "id": "63841bb4-59bb-46c1-b916-ecd05aaa26c8"
+                },
+                {
+                    "command": "EVENT_TEXT",
+                    "args": {
+                        "text": [
+                            "Music: Ethan F.\n\nLevel design:\nEthan F.\nMark L."
+                        ],
+                        "avatarId": "",
+                        "__comment": false
+                    },
+                    "id": "0295e2fe-4261-4dde-bc04-d7225bde02d8"
+                },
+                {
+                    "command": "EVENT_TEXT",
+                    "args": {
+                        "text": [
+                            "Programming:\nMark L.\nJaime C.\nEthan F."
+                        ],
+                        "avatarId": "",
+                        "__comment": false
+                    },
+                    "id": "8cb927c9-3b43-494d-838e-9db7666584e2"
+                },
+                {
+                    "command": "EVENT_TEXT",
+                    "args": {
+                        "text": [
+                            "Thanks for\nplaying !!"
+                        ],
+                        "avatarId": ""
+                    },
+                    "id": "70983094-89ae-4a87-a9fa-2e8c5029926e"
+                },
+                {
+                    "command": "EVENT_FADE_OUT",
+                    "args": {
+                        "speed": "2"
+                    },
+                    "id": "92264816-63cf-4542-bcdd-921b4a842114"
+                }
+            ],
+            "playerHit1Script": [],
+            "playerHit2Script": [],
+            "playerHit3Script": []
         }
     ],
     "backgrounds": [
@@ -19021,6 +19125,16 @@
             "imageHeight": 144,
             "filename": "Classroom.png",
             "tileColors": []
+        },
+        {
+            "id": "132f9f99-918e-457d-9232-8cc225050ff5",
+            "name": "Friendswitch-logov2",
+            "symbol": "bg_friendswitch_logov2",
+            "width": 20,
+            "height": 18,
+            "imageWidth": 160,
+            "imageHeight": 144,
+            "filename": "Friendswitch-logov2.png"
         },
         {
             "id": "4337046c-9c92-4e82-8601-cd18e6bbd909",
@@ -27379,7 +27493,7 @@
         }
     ],
     "settings": {
-        "startSceneId": "423da85a-dd16-40cd-bd72-0ee65d8a06ff",
+        "startSceneId": "6d717445-5314-4db2-8585-5a4bb711a6a9",
         "startX": 0,
         "startY": 8,
         "startMoveSpeed": 1,
@@ -27387,8 +27501,8 @@
         "startDirection": "down",
         "showCollisions": true,
         "showConnections": true,
-        "worldScrollX": 1395,
-        "worldScrollY": 3,
+        "worldScrollX": 0,
+        "worldScrollY": 154,
         "zoom": 104.17938232421875,
         "customColorsEnabled": true,
         "sgbEnabled": false,
