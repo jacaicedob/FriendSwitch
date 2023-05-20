@@ -23594,7 +23594,7 @@
                     "command": "EVENT_TEXT",
                     "args": {
                         "text": [
-                            "Hey...\nThanks for the\nboost back there"
+                            "Hey...\nThanks for the\nboost back there."
                         ],
                         "avatarId": "28bb3cb6-caed-4adf-bef1-301fda726d93"
                     },
@@ -23604,7 +23604,7 @@
                     "command": "EVENT_TEXT",
                     "args": {
                         "text": [
-                            "Ahaha...\nI guess even\nyou get spotted\nafter all"
+                            "Ahaha...\nI guess even\nyou get spotted\nafter all."
                         ],
                         "avatarId": "3fcc50a9-b9eb-424f-a98a-96be9f3288d9"
                     },
@@ -23622,7 +23622,7 @@
                     "command": "EVENT_TEXT",
                     "args": {
                         "text": [
-                            "Hahaha... At \nrate, we'll be\nout the door\nin no time."
+                            "Hahaha.. At this\nrate, we'll be\nout the door\nin no time."
                         ],
                         "avatarId": "1b563d4f-a656-45cf-aece-ff5c6c1f827e"
                     },
@@ -35551,8 +35551,8 @@
         "startDirection": "right",
         "showCollisions": true,
         "showConnections": true,
-        "worldScrollX": 412,
-        "worldScrollY": 284,
+        "worldScrollX": 2900,
+        "worldScrollY": 290.3999938964844,
         "zoom": 152.8448486328125,
         "customColorsEnabled": true,
         "sgbEnabled": false,
@@ -35581,9 +35581,9 @@
         "defaultUIPaletteId": "default-ui",
         "playerPaletteId": "",
         "navigatorSplitSizes": [
-            402,
-            224,
-            143
+            434,
+            241,
+            154
         ],
         "showNavigator": true,
         "defaultFontId": "4bd653f0-e08d-424e-9e5b-c1f3aaa21e47",
