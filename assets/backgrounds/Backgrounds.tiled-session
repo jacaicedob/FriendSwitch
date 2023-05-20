@@ -1,4 +1,8 @@
 {
+    "Map/SizeTest": {
+        "height": 4300,
+        "width": 2
+    },
     "activeFile": "TutorialSpace.tmx",
     "expandedProjectPaths": [
         "."
