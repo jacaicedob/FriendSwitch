@@ -1,2 +1,3 @@
 # Ignore backup file - we can use source control for history.
 *.bak
+*.tiled-session

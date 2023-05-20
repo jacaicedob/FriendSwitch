@@ -1,8 +1,49 @@
 {
-    "Map/SizeTest": {
-        "height": 4300,
-        "width": 2
+    "activeFile": "LevelSpeed.tmx",
+    "expandedProjectPaths": [
+        "."
+    ],
+    "exportAsImage.drawTileGrid": false,
+    "exportAsImage.includeBackgroundColor": false,
+    "exportAsImage.useCurrentScale": false,
+    "exportAsImage.visibleLayersOnly": true,
+    "file.lastUsedOpenFilter": "All Files (*)",
+    "fileStates": {
+        "Assets.tsx": {
+            "scaleInDock": 1
+        },
+        "LevelSpeed.tmx": {
+            "scale": 0.8490625,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 396.90835480309164,
+                "y": 70.07729112992268
+            }
+        },
+        "LevelStealthy.tmx": {
+            "scale": 4.2453125,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 80.08833271991166,
+                "y": 72.0794994479205
+            }
+        }
     },
+    "map.fixedSize": true,
+    "map.height": 18,
+    "map.orientation": 1,
+    "map.tileHeight": 8,
+    "map.tileWidth": 8,
+    "map.width": 20,
+    "openFiles": [
+        "LevelSpeed.tmx",
+        "LevelStealthy.tmx"
+    ],
+    "project": "Backgrounds.tiled-project",
+    "recentFiles": [
+        "LevelStealthy.tmx",
+        "LevelSpeed.tmx",
+        "Level1.tmx",
     "activeFile": "TutorialSpace.tmx",
     "expandedProjectPaths": [
         "."
@@ -114,5 +155,15 @@
         "TutorialSpace.tmx",
         "Classroom.tmx",
         "Assets.tsx"
-    ]
+    ],
+    "tileset.embedInMap": false,
+    "tileset.margin": 0,
+    "tileset.spacing": 0,
+    "tileset.tileSize": {
+        "height": 8,
+        "width": 8
+    },
+    "tileset.transparentColor": "#ff00ff",
+    "tileset.type": 0,
+    "tileset.useTransparentColor": false
 }
