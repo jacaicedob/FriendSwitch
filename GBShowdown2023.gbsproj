@@ -4512,7 +4512,7 @@
                                 "command": "EVENT_TEXT",
                                 "args": {
                                     "text": [
-                                        "\nDo you know what\na loser is?\n"
+                                        "\nDo you know what\na \"loser\" is?\n"
                                     ],
                                     "avatarId": ""
                                 },
@@ -4908,7 +4908,7 @@
                     "command": "EVENT_TEXT",
                     "args": {
                         "text": [
-                            "\nAs long as you're\nhere, you're all\nLOSERS !!\n"
+                            "\nAs long as you're\nhere, you're all\n\"losers\" !!\n"
                         ],
                         "avatarId": ""
                     },
@@ -4946,7 +4946,7 @@
                     "command": "EVENT_TEXT",
                     "args": {
                         "text": [
-                            "I should not have \nhad that spicy \nburrito!"
+                            "That spicy \nburrito was a \nmistake!"
                         ],
                         "avatarId": ""
                     },
@@ -5471,7 +5471,8 @@
                                 "text": [
                                     "Never seen you \naround..."
                                 ],
-                                "avatarId": ""
+                                "avatarId": "",
+                                "__collapse": false
                             },
                             "id": "3e3bcf72-3dc5-444f-83ed-61968234fee5"
                         },
@@ -5513,11 +5514,31 @@
                             "command": "EVENT_TEXT",
                             "args": {
                                 "text": [
-                                    "Detention sucks!\nWe get it all \nthe time... Hmmph"
+                                    "Detention sucks!\nWe get it all \nthe time... Hmmph."
                                 ],
                                 "avatarId": ""
                             },
                             "id": "70d290b7-75cc-451c-853a-2f7279edd21d"
+                        },
+                        {
+                            "command": "EVENT_TEXT",
+                            "args": {
+                                "text": [
+                                    "And you're even\nscrawnier than\nthose two there."
+                                ],
+                                "avatarId": ""
+                            },
+                            "id": "9083fa08-0303-407d-9118-30b5cc4c2258"
+                        },
+                        {
+                            "command": "EVENT_TEXT",
+                            "args": {
+                                "text": [
+                                    "Better hope you\nmake it out, kid.\nHeheh..."
+                                ],
+                                "avatarId": ""
+                            },
+                            "id": "d0d73c8f-bb4a-4331-8754-95c6655c4554"
                         }
                     ],
                     "startScript": [],
@@ -7210,7 +7231,7 @@
                             "command": "EVENT_TEXT",
                             "args": {
                                 "text": [
-                                    "If you get stuck\npress SELECT to\nrestart a level."
+                                    "Press SELECT to\nrestart a level."
                                 ],
                                 "avatarId": ""
                             },
@@ -23044,7 +23065,7 @@
                     "command": "EVENT_TEXT",
                     "args": {
                         "text": [
-                            "Story & Dialogue: \nJuan V.\nJaime C.\nMark L.\nEthan F."
+                            "Story & Dialogue: \nVT\nJaime C.\nMark L.\nEthan F."
                         ],
                         "avatarId": ""
                     },
@@ -23612,11 +23633,21 @@
                     "command": "EVENT_TEXT",
                     "args": {
                         "text": [
-                            "Ahaha...\nI guess even\nyou get spotted\nafter all."
+                            "Ahaha...\nI guess even\nyou get spotted\nsometimes."
                         ],
                         "avatarId": "3fcc50a9-b9eb-424f-a98a-96be9f3288d9"
                     },
                     "id": "c3a79945-127c-4213-889c-0d629c585faa"
+                },
+                {
+                    "command": "EVENT_TEXT",
+                    "args": {
+                        "text": [
+                            "Guess I'll have\nto keep an extra\ngood eye on you."
+                        ],
+                        "avatarId": "3fcc50a9-b9eb-424f-a98a-96be9f3288d9"
+                    },
+                    "id": "5f50136e-f120-4a68-bb41-0f8a73dbb7e5"
                 },
                 {
                     "command": "EVENT_ACTOR_EMOTE",
@@ -23640,7 +23671,7 @@
                     "command": "EVENT_TEXT",
                     "args": {
                         "text": [
-                            "We are actually\ngoing to make\nit!!"
+                            "We are actually\ngoing to make\nit! Thanks guys!"
                         ],
                         "avatarId": "d3589f12-daa2-490a-b835-8337f0c0286b"
                     },
@@ -23713,7 +23744,7 @@
                     "command": "EVENT_TEXT",
                     "args": {
                         "text": [
-                            "to think you\nslipped from\nunder my nose!"
+                            "To think you\nslipped from\nunder my nose!"
                         ],
                         "avatarId": "ea44f582-9550-4564-8fbd-7130ad0bdcd7"
                     },
@@ -23733,7 +23764,7 @@
                     "command": "EVENT_TEXT",
                     "args": {
                         "text": [
-                            "Everybody\nrun!"
+                            "Everybody\nrun !!"
                         ],
                         "avatarId": "3fcc50a9-b9eb-424f-a98a-96be9f3288d9"
                     },
@@ -24251,11 +24282,21 @@
                     "command": "EVENT_TEXT",
                     "args": {
                         "text": [
-                            "We'd have been\ntoast if you\nweren't such\na good shot"
+                            "We'd have been\ntoast if you\nweren't such\na good shot!"
                         ],
                         "avatarId": "1b563d4f-a656-45cf-aece-ff5c6c1f827e"
                     },
                     "id": "248833c8-0751-4297-bbc2-65da00dc4d35"
+                },
+                {
+                    "command": "EVENT_TEXT",
+                    "args": {
+                        "text": [
+                            "Welcome to the\nteam little guy."
+                        ],
+                        "avatarId": "1b563d4f-a656-45cf-aece-ff5c6c1f827e"
+                    },
+                    "id": "4c6898da-b75e-4690-be05-5bc54fdfb40c"
                 },
                 {
                     "command": "EVENT_ACTOR_EMOTE",
@@ -24319,7 +24360,7 @@
                     "command": "EVENT_TEXT",
                     "args": {
                         "text": [
-                            "I'm good at\nmath, I can\nhelp you"
+                            "I'm good at\nmath. I can\nhelp you"
                         ],
                         "avatarId": "28bb3cb6-caed-4adf-bef1-301fda726d93"
                     },
@@ -25972,6 +26013,16 @@
                                                 "avatarId": ""
                                             },
                                             "id": "ab06815b-4423-4f9f-a85a-6f85646612bc"
+                                        },
+                                        {
+                                            "command": "EVENT_TEXT",
+                                            "args": {
+                                                "text": [
+                                                    "He'll get you\nplaces fast."
+                                                ],
+                                                "avatarId": ""
+                                            },
+                                            "id": "4e3630b3-ee43-4f38-9032-ec2e316502fe"
                                         }
                                     ]
                                 },
@@ -26012,11 +26063,21 @@
                                             "command": "EVENT_TEXT",
                                             "args": {
                                                 "text": [
-                                                    "She doesn't stand\nout too much."
+                                                    "She doesn't stand\nout too much,"
                                                 ],
                                                 "avatarId": ""
                                             },
                                             "id": "27a2b2c1-5995-4d77-83fe-08b5cc2497bc"
+                                        },
+                                        {
+                                            "command": "EVENT_TEXT",
+                                            "args": {
+                                                "text": [
+                                                    "so hall monitors\ndon't see her so\nwell."
+                                                ],
+                                                "avatarId": ""
+                                            },
+                                            "id": "9f9074dd-5e22-4d06-82a5-42e4c26fda22"
                                         }
                                     ]
                                 },
