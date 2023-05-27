@@ -396,7 +396,7 @@
                     "command": "EVENT_IF_COLOR_SUPPORTED",
                     "args": {
                         "__collapseElse": false,
-                        "__collapse": true
+                        "__collapse": false
                     },
                     "children": {
                         "true": [],
@@ -11922,7 +11922,15 @@
             "y": 528.197271070504,
             "actors": [],
             "triggers": [],
-            "script": [],
+            "script": [
+                {
+                    "command": "EVENT_ACTOR_HIDE",
+                    "args": {
+                        "actorId": "$self$"
+                    },
+                    "id": "bcfd5b77-5e34-4935-8740-8ae32cb273de"
+                }
+            ],
             "playerHit1Script": [],
             "playerHit2Script": [],
             "playerHit3Script": []
@@ -35551,8 +35559,8 @@
         "startDirection": "right",
         "showCollisions": true,
         "showConnections": true,
-        "worldScrollX": 3324.800048828125,
-        "worldScrollY": 431.20001220703125,
+        "worldScrollX": 0,
+        "worldScrollY": 272,
         "zoom": 152.8448486328125,
         "customColorsEnabled": true,
         "sgbEnabled": false,
@@ -35581,9 +35589,9 @@
         "defaultUIPaletteId": "default-ui",
         "playerPaletteId": "",
         "navigatorSplitSizes": [
-            434,
-            241,
-            154
+            459,
+            255,
+            163
         ],
         "showNavigator": true,
         "defaultFontId": "4bd653f0-e08d-424e-9e5b-c1f3aaa21e47",
