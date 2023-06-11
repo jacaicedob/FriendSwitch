@@ -1,3 +1,13 @@
-# Ignore backup file - we can use source control for history.
+# GB Studio
+
+# Backup files - We can use source control for history instead.
 *.bak
+
+# Build output - We can use GitHub's Releases page instead to share builds.
+build/
+
+
+# Tiled
+
+# tiled-session files aren't meant to be shared.
 *.tiled-session
