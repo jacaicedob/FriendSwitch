@@ -1,5 +1,5 @@
 {
-    "name": "GBShowdown2023",
+    "name": "Friend Switch",
     "author": "Ethan, Jaime, Juan, Mark",
     "_version": "3.1.0",
     "_release": "3",
@@ -35613,11 +35613,11 @@
     ],
     "settings": {
         "startSceneId": "6d717445-5314-4db2-8585-5a4bb711a6a9",
-        "startX": 18,
-        "startY": 7,
+        "startX": 0,
+        "startY": 0,
         "startMoveSpeed": 1,
         "startAnimSpeed": 15,
-        "startDirection": "right",
+        "startDirection": "down",
         "showCollisions": true,
         "showConnections": true,
         "worldScrollX": 0,
@@ -35650,9 +35650,9 @@
         "defaultUIPaletteId": "default-ui",
         "playerPaletteId": "",
         "navigatorSplitSizes": [
-            459,
-            255,
-            163
+            425,
+            236,
+            151
         ],
         "showNavigator": true,
         "defaultFontId": "4bd653f0-e08d-424e-9e5b-c1f3aaa21e47",
