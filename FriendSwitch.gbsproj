@@ -8844,15 +8844,7 @@
                             "id": "4762991b-acab-455f-aaa9-a3d2ddb2f733"
                         }
                     ],
-                    "startScript": [
-                        {
-                            "command": "EVENT_ACTOR_STOP_UPDATE",
-                            "args": {
-                                "actorId": "f3479786-7be5-4074-8cb5-2417bb827396"
-                            },
-                            "id": "102a063d-46b4-4f52-9c77-45b1f9f5e5d2"
-                        }
-                    ],
+                    "startScript": [],
                     "updateScript": [
                         {
                             "command": "EVENT_CALL_CUSTOM_EVENT",
@@ -10786,15 +10778,7 @@
                             "id": "0dea80b5-31a0-4ae3-9e93-a645227a0b02"
                         }
                     ],
-                    "startScript": [
-                        {
-                            "command": "EVENT_ACTOR_STOP_UPDATE",
-                            "args": {
-                                "actorId": "623b5248-146a-47af-8c54-a199bd7845a0"
-                            },
-                            "id": "6db22bc7-b52f-45d8-ba6a-e9c9010849c5"
-                        }
-                    ],
+                    "startScript": [],
                     "updateScript": [
                         {
                             "command": "EVENT_CALL_CUSTOM_EVENT",
@@ -27913,7 +27897,7 @@
         },
         {
             "id": "9753edbe-625a-4dda-bd56-84c7a95edd3d",
-            "name": "InteractWithCart2",
+            "name": "InteractWithCart",
             "description": "Script to call when the player interacts with a janitor cart.",
             "variables": {
                 "V0": {
@@ -28713,16 +28697,16 @@
     ],
     "engineFieldValues": [],
     "settings": {
-        "startSceneId": "6d717445-5314-4db2-8585-5a4bb711a6a9",
-        "startX": 0,
-        "startY": 0,
+        "startSceneId": "57ac67ad-aa38-40d4-a8ce-9718bae49e44",
+        "startX": 11,
+        "startY": 4,
         "startMoveSpeed": 1,
         "startAnimSpeed": 15,
         "startDirection": "down",
         "showCollisions": true,
         "showConnections": true,
-        "worldScrollX": 0,
-        "worldScrollY": 69.5999984741211,
+        "worldScrollX": 1703.199951171875,
+        "worldScrollY": 445.6000061035156,
         "zoom": 199.375,
         "customColorsEnabled": true,
         "sgbEnabled": false,
