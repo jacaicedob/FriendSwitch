@@ -26866,7 +26866,7 @@
                         ],
                         "override": true,
                         "__scriptTabs": "press",
-                        "__collapse": true
+                        "__collapse": false
                     },
                     "children": {
                         "true": [
@@ -27416,7 +27416,7 @@
                                                 "initialOffset": 0,
                                                 "speed": 2,
                                                 "animSpeed": 15,
-                                                "lifeTime": 2,
+                                                "lifeTime": 4,
                                                 "loopAnim": true,
                                                 "destroyOnHit": true,
                                                 "collisionGroup": "3",
@@ -29163,7 +29163,7 @@
         "startDirection": "down",
         "showCollisions": true,
         "showConnections": true,
-        "worldScrollX": 666.4000244140625,
+        "worldScrollX": 452,
         "worldScrollY": 1018.4000244140625,
         "zoom": 369.5,
         "customColorsEnabled": true,
