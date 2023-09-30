@@ -17708,7 +17708,7 @@
                                             "command": "EVENT_TEXT",
                                             "args": {
                                                 "text": [
-                                                    "Strong as a ox\nand just as slow. \nPush stuff with A."
+                                                    "Strong as an ox\nand just as slow. \nPush stuff with A."
                                                 ],
                                                 "avatarId": ""
                                             },
@@ -28531,69 +28531,14 @@
             "symbol": "var_reducedvision"
         },
         {
-            "id": "ea49c813-cee3-4316-b705-d711cd0208ae__L0",
-            "name": "Local 0",
-            "symbol": "var_local_0"
-        },
-        {
-            "id": "f775bee6-0177-4a3b-b1e5-fc57fcb8f95b__L0",
-            "name": "PreviousReducedVision",
-            "symbol": "var_previousreducedvision"
-        },
-        {
-            "id": "a4c36133-6701-4cf5-bb1b-54ea89473833__L0",
-            "name": "PreviousReducedVision",
-            "symbol": "var_previousreducedvision_0"
-        },
-        {
-            "id": "0388270a-fe90-4b23-9cfa-ee087a4b3487__L0",
-            "name": "PreviousReducedVision",
-            "symbol": "var_previousreducedvision_1"
-        },
-        {
-            "id": "a767f336-5c9e-4c85-a4e4-b4caba0d7c96__L0",
-            "name": "PreviousReducedVision",
-            "symbol": "var_previousreducedvision_2"
-        },
-        {
-            "id": "794cef31-5fdd-409e-a3df-eba5ad44c104__L0",
-            "name": "PreviousReducedVision",
-            "symbol": "var_previousreducedvision_3"
-        },
-        {
-            "id": "623b5248-146a-47af-8c54-a199bd7845a0__L0",
-            "name": "PreviousReducedVision",
-            "symbol": "var_previousreducedvision_4"
-        },
-        {
-            "id": "078a925e-ec67-4229-88fd-d29a9bd4be8f__L0",
-            "name": "PreviousReducedVision",
-            "symbol": "var_previousreducedvision_5"
-        },
-        {
-            "id": "f4ffbc75-9738-4a11-8333-2e1070316a0f__L0",
-            "name": "PreviousReducedVision",
-            "symbol": "var_previousreducedvision_6"
-        },
-        {
-            "id": "9fa2c891-fda6-466d-8fae-742bef594000__L0",
-            "name": "PreviousReducedVision",
-            "symbol": "var_previousreducedvision_7"
-        },
-        {
-            "id": "f3479786-7be5-4074-8cb5-2417bb827396__L0",
-            "name": "PreviousReducedVision",
-            "symbol": "var_previousreducedvision_8"
+            "id": "2",
+            "name": "Level0Cart1X",
+            "symbol": "var_level0cart1x"
         },
         {
             "id": "3",
             "name": "Level0Cart1Y",
             "symbol": "var_level0cart1y"
-        },
-        {
-            "id": "2",
-            "name": "Level0Cart1X",
-            "symbol": "var_level0cart1x"
         },
         {
             "id": "4",
@@ -28704,20 +28649,75 @@
             "id": "25",
             "name": "Level4Cart4Y",
             "symbol": "var_level4cart4y"
+        },
+        {
+            "id": "ea49c813-cee3-4316-b705-d711cd0208ae__L0",
+            "name": "Local 0",
+            "symbol": "var_local_0"
+        },
+        {
+            "id": "f775bee6-0177-4a3b-b1e5-fc57fcb8f95b__L0",
+            "name": "PreviousReducedVision",
+            "symbol": "var_previousreducedvision"
+        },
+        {
+            "id": "a4c36133-6701-4cf5-bb1b-54ea89473833__L0",
+            "name": "PreviousReducedVision",
+            "symbol": "var_previousreducedvision_0"
+        },
+        {
+            "id": "0388270a-fe90-4b23-9cfa-ee087a4b3487__L0",
+            "name": "PreviousReducedVision",
+            "symbol": "var_previousreducedvision_1"
+        },
+        {
+            "id": "a767f336-5c9e-4c85-a4e4-b4caba0d7c96__L0",
+            "name": "PreviousReducedVision",
+            "symbol": "var_previousreducedvision_2"
+        },
+        {
+            "id": "794cef31-5fdd-409e-a3df-eba5ad44c104__L0",
+            "name": "PreviousReducedVision",
+            "symbol": "var_previousreducedvision_3"
+        },
+        {
+            "id": "623b5248-146a-47af-8c54-a199bd7845a0__L0",
+            "name": "PreviousReducedVision",
+            "symbol": "var_previousreducedvision_4"
+        },
+        {
+            "id": "078a925e-ec67-4229-88fd-d29a9bd4be8f__L0",
+            "name": "PreviousReducedVision",
+            "symbol": "var_previousreducedvision_5"
+        },
+        {
+            "id": "f4ffbc75-9738-4a11-8333-2e1070316a0f__L0",
+            "name": "PreviousReducedVision",
+            "symbol": "var_previousreducedvision_6"
+        },
+        {
+            "id": "9fa2c891-fda6-466d-8fae-742bef594000__L0",
+            "name": "PreviousReducedVision",
+            "symbol": "var_previousreducedvision_7"
+        },
+        {
+            "id": "f3479786-7be5-4074-8cb5-2417bb827396__L0",
+            "name": "PreviousReducedVision",
+            "symbol": "var_previousreducedvision_8"
         }
     ],
     "engineFieldValues": [],
     "settings": {
-        "startSceneId": "f1f40914-6fec-4f20-b915-07d82c08be47",
-        "startX": 51,
-        "startY": 20,
+        "startSceneId": "6d717445-5314-4db2-8585-5a4bb711a6a9",
+        "startX": 0,
+        "startY": 0,
         "startMoveSpeed": 1,
         "startAnimSpeed": 15,
         "startDirection": "down",
         "showCollisions": true,
         "showConnections": true,
-        "worldScrollX": 2777,
-        "worldScrollY": 2256,
+        "worldScrollX": 97.5999984741211,
+        "worldScrollY": 1142.4000244140625,
         "zoom": 369.5,
         "customColorsEnabled": true,
         "sgbEnabled": false,
@@ -28746,9 +28746,9 @@
         "defaultUIPaletteId": "default-ui",
         "playerPaletteId": "",
         "navigatorSplitSizes": [
-            470,
-            254,
-            159
+            442,
+            238,
+            149
         ],
         "showNavigator": true,
         "defaultFontId": "4bd653f0-e08d-424e-9e5b-c1f3aaa21e47",
